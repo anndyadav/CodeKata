@@ -4,8 +4,8 @@ using namespace std;
 
 int findfact(int t){
     int ans=1;
-    if(t==1){
-        return 1;
+    if(t<=1){
+        return ans;
     }
     else{
        for(int i=t;i>1;i--){
