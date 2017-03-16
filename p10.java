@@ -40,6 +40,9 @@ class Codechef {
   int n;
   Scanner sc = new Scanner(System.in);
   n = sc.nextInt();
+  if(n<2){
+      System.out.println(0);
+  }
   runEratosthenesSieve(n);
   sc.close();
  }
